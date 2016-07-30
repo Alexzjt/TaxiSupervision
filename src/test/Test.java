@@ -14,7 +14,7 @@ import util.FileUtil;
 public class Test {
 	public static void main(String[] args) throws Exception{
 		String line;
-		List<String> boundary_file_list=FileUtil.getAbsolutePathFromDIR(Config.NATIONAL_BOUNDARY_DIR);
+		List<String> boundary_file_list=FileUtil.getAbsolutePathFromDIR("C:\\Users\\lirun\\Desktop\\china_new");
 		
 		BufferedReader adminDivision_file=new BufferedReader(new FileReader(Config.ADMINISTRARIVE_DIVISION_FILE_OUTPUT));
 		List<String> adminDivision_list=new ArrayList<String>(3000);

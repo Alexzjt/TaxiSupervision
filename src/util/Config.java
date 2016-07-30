@@ -54,9 +54,9 @@ public class Config {
 	//////////////////////////////////////////////////////////////////////////
 	public static String NATIONAL_BOUNDARY_DIR="D:\\zjt\\区县边界经纬度\\china\\";
 	public static String NATIONAL_BOUNDARY_OUTPUT="D:\\zjt\\区县边界经纬度\\chinaGridCode\\";
-	public static String BEIJING_GRID="D:\\zjt\\网约车实验结果\\北京6位网格.csv";
-	public static String BEIJING_BOUNDARY_DIR="D:\\zjt\\区县边界经纬度\\chinaGridCode\\北京市\\";
-	public static String BEIJING_MATCH="D:\\zjt\\网约车实验结果\\北京8位网格匹配"+DF.format(new Date())+".csv";
+	public static String BEIJING_GRID="D:\\zjt\\网约车实验结果\\重庆6位网格.csv";
+	public static String BEIJING_BOUNDARY_DIR="D:\\zjt\\区县边界经纬度\\chinaGridCode\\重庆市\\";
+	public static String BEIJING_MATCH="D:\\zjt\\网约车实验结果\\重庆8位网格匹配"+DF.format(new Date())+".csv";
 	public static String NATION_MATCH="D:\\zjt\\网约车实验结果\\全国8位网格匹配"+DF.format(new Date())+".csv";
 	/////////////////////////////////////////////////////////////////////////////
 	public static String ADMINISTRARIVE_DIVISION_FILE_PATH="E:\\BaiduYunDownload\\行政区划.txt"; 
@@ -65,4 +65,5 @@ public class Config {
 	public static String GEOGRID_ADMIN_PROVINCE_MATCH_OUTPUT="D:\\zjt\\网约车实验结果\\地理网格与行政区划.csv";
 	public static String LONLAT_GEOGRID_ADMIN_PROVINCE_MATCH_OUTPUT="D:\\zjt\\网约车实验结果\\经纬度地理网格与行政区划.csv";
 	public static String PINYIN_CODE_NAME_PATH="D:\\zjt\\网约车实验结果\\省级行政区划代码拼音.txt";
+	public static String COUNTY_AVERAGE_LONLAT="D:\\zjt\\网约车实验结果\\区县经纬度.txt";
 }
