@@ -126,9 +126,7 @@ public class GeographicGrid {
 	}
 
 	public static void main(String[] args) {
-		GeographicGrid test = new GeographicGrid("60561264");
+		GeographicGrid test = new GeographicGrid(new LonLat(117.39029331445575,40.22709438118154));
 		System.out.println(test.toStringLonLatGeographicCode());
-		GeographicGrid test2 = new GeographicGrid(test.lonLat);
-		System.out.println(test2.toStringLonLatGeographicCode());
 	}
 }

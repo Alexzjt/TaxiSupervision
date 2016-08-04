@@ -64,8 +64,12 @@ public class Config {
 	public static String ADMINISTRARIVE_DIVISION_FILE_OUTPUT="D:\\zjt\\网约车实验结果\\行政区划省市县分割.txt";
 	//////////////////////////////////////////////////////////////////////////////
 	public static String GEOGRID_ADMIN_PROVINCE_MATCH_DIR="D:\\zjt\\网约车实验结果\\省级经纬度地理网格与行政区划\\";
+	public static String PROVINCE_MATCH_DIR="D:\\zjt\\网约车实验结果\\省级匹配\\";
 	public static String GEOGRID_ADMIN_PROVINCE_MATCH_OUTPUT="D:\\zjt\\网约车实验结果\\地理网格与行政区划.csv";
 	public static String LONLAT_GEOGRID_ADMIN_PROVINCE_MATCH_OUTPUT="D:\\zjt\\网约车实验结果\\经纬度地理网格与行政区划.csv";
 	public static String PINYIN_CODE_NAME_PATH="D:\\zjt\\网约车实验结果\\省级行政区划代码拼音.txt";
 	public static String COUNTY_AVERAGE_LONLAT="D:\\zjt\\网约车实验结果\\区县经纬度.txt";
+	///////////////////////////////////////////////////////////////////////////////////////
+	public static String ADMINDIVISION_MID="D:\\zjt\\四维图新\\行政区划_16sum\\成果\\AD_District.MID";
+	public static String ADMINDIVISION_MIF="D:\\zjt\\四维图新\\行政区划_16sum\\成果\\AD_District.MIF";
 }
